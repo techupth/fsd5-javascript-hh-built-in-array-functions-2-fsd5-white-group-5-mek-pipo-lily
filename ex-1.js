@@ -374,3 +374,9 @@ const bills = [
 ];
 
 // Start coding here
+let resultTotalBills = bills.reduce(
+  (accumulator, bill) => accumulator + bill.total,
+  0
+);
+const formattedResultTotalBills = resultTotalBills.toLocaleString();
+console.log("Total bill transaction is", formattedResultTotalBills);
