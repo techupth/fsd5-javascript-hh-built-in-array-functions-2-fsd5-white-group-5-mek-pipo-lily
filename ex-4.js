@@ -391,4 +391,4 @@ for (let i = 0; i < totalMembers.length; i++) {
   }
 }
 
-console.log(result);
+console.log(`"Unique Members Count: ${result.length}"`);
