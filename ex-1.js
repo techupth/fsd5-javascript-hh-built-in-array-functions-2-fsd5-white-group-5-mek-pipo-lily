@@ -374,3 +374,7 @@ const bills = [
 ];
 
 // Start coding here
+
+console.log(
+  `Total bill transaction is ${bills.reduce((pot, i) => pot + i.total, 0)}`
+);
